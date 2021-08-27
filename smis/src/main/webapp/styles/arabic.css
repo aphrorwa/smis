@@ -1,0 +1,207 @@
+.mainHolder *
+{
+  direction:rtl;
+  font-family:Tahoma!important;
+}
+
+.main-menu,.searchZone
+{
+  direction:rtl;
+}
+
+.nav-menu-title
+{
+  float:right;
+  padding-left:8px;
+  padding-top:3px;
+}
+
+#block-search-0
+{
+  float:right;
+}
+
+.main-menu a
+{
+  font-style:normal;
+}
+
+.rightSection
+{
+  float:left;
+}
+
+.leftSection
+{
+  float:right;
+}
+
+.mainSection
+{
+  float:right;
+  margin:0;
+  margin-right:10px;
+}
+
+.nav-menu h3
+{
+  float:right;
+}
+
+
+#sidebar-left .item-list li.views-row
+{
+  float:none;
+}
+
+#sidebar-left .view-footer p
+{
+  text-align:left;
+}
+
+#sidebar-left .block
+{
+  width:100%;
+}
+
+#block-search-0
+{
+  float:left;
+}
+
+.item-list li.views-row
+{
+  padding-right:5px;
+}
+
+.leftMenuHolder li,#sidebar-left li
+{
+  background:url();
+}
+
+.rightMenuHolder li a,#sidebar-right li
+{
+  background-position:right 6px;
+  padding:0 15px 5px 0;
+}
+
+.rssHolder
+{
+  float:left;
+}
+
+.mostRecentTitle h6
+{
+  background-position:right center;
+  padding-right:35px;
+}
+
+.content ul li
+{
+  background-position:right 6px;
+  padding-right:10px;
+}
+
+#block-views-sp-block_2
+{
+  margin-bottom:15px;
+}
+
+#edit-taxonomy-2
+{
+  margin-top:7px;
+}
+
+.content-add-more
+{
+  margin:10px 0;
+}
+
+/*
+
+    TABS
+
+*/
+ul.tabs li
+{
+  float:right;
+}
+
+.view-Galleries *
+{
+  direction:ltr;
+  text-align:right;
+}
+
+.view-Galleries .arrow
+{
+  display:none;
+}
+
+.profile h3
+{
+  margin-right:0!important;
+  margin-left:110px!important;
+}
+
+.mainSection li
+{
+  margin-right:20px;
+}
+
+.nav-menu li
+{
+  float:right;
+}
+
+#sidebar-left h3,#user-login-form,#block-user-0 *
+{
+  text-align:right!important;
+}
+
+#block-views-domains_list-block_1
+{
+  width:750px;
+}
+
+.nav-menu h3
+{
+  float:right;
+  padding-left:10px;
+}
+
+.breadCrumbHolder
+{
+  overflow:auto;
+}
+
+.breadCrumb
+{
+  direction:rtl;
+}
+
+.inside .item-list li.views-row {
+    float:left;
+}
+
+.views-field-field-url-value {
+    direction:ltr;
+    text-align:right;
+}
+
+/*Hubs List*/
+#rgt{
+    padding-left: 20px;
+    padding-right: 0px;
+    background: url('../images/arrow.png') #FFF no-repeat left ;
+}
+#rgt:hover{
+    background: url('../images/arrow.png') #939393 no-repeat left ;
+}
+/******MultiLang hubsnames******/
+.dl-title-en{
+    display: none;
+}
+.dl-title-ar{
+    display: block;
+}

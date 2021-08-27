@@ -1,0 +1,308 @@
+/*
+    anythingSlider v1.2
+    
+    By Chris Coyier: http://css-tricks.com
+    with major improvements by Doug Neiner: http://pixelgraphics.us/
+    based on work by Remy Sharp: http://jqueryfordesigners.com/
+*/
+* { margin: 0; padding: 0; }
+
+.anythingSlider{
+	width: 185px;
+	height: 82px;
+	position: relative;
+}
+.anythingSlider .wrapper {
+	width: 185px;
+	overflow: auto;
+	height:250px;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/* Width below is max for Opera */
+.anythingSlider .wrapper ul {
+	width: 32700px;
+	list-style: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	border:1px solid #999;
+}
+.anythingSlider ul li {
+	display: block;
+	float: left;
+	padding: 0;
+	height: 82px;
+	width: 185px;
+	margin: 0;
+}
+.anythingSlider .arrow {
+	display: block;
+	height: 200px;
+	width: 67px;
+	background: url(../images/arrows.html) no-repeat 0 0;
+	text-indent: -9999px;
+	position: absolute;
+	top: 65px;
+	cursor: pointer;
+}
+.anythingSlider .forward {
+	background-position: 0 0;
+	right: -20px;
+}
+.anythingSlider .back {
+	background-position: -67px 0;
+	left: -20px;
+}
+.anythingSlider .forward:hover {
+	background-position: 0 -200px;
+}
+.anythingSlider .back:hover {
+	background-position: -67px -200px;
+}
+#thumbNav {
+	position: relative;
+	top:135px;
+	text-align: left;
+	border-bottom:1px solid #e3e3e3;
+}
+#thumbNav a {
+	display: inline-block;
+	padding: 2px 6px;
+	height: 18px;
+	margin: 0 2px 0 0;
+	background:url(../images/greyPoint.gif) no-repeat;
+	font-size:0px;
+}
+#thumbNav a:hover {
+	background-image:url(../images/bluePoint.gif) no-repeat;
+}
+#thumbNav a.cur {
+	background:url(../images/bluePoint.gif) no-repeat;
+}
+#start-stop {
+	display:none;
+}
+#start-stop {
+	background: green;
+	background-image: url(../images/cellshade.html);
+	background-repeat: repeat-x;
+	color: white;
+	padding: 2px 5px;
+	width: 40px;
+	text-align: center;
+	position: absolute;
+	right: 45px;
+	top: 323px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+#start-stop.playing {
+	background-color: red;
+}
+#start-stop:hover {
+	background-image: none;
+}
+/*
+  Prevents
+*/
+.anythingSlider .wrapper ul ul {
+	position: static;
+	margin: 0;
+	background: none;
+	overflow: visible;
+	width: auto;
+	border: 0;
+}
+.anythingSlider .wrapper ul ul li {
+	float: none;
+	height: auto;
+	width: auto;
+	background: none;
+}
+
+
+
+/****************************Main Slider******************************************/
+/*>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<*/
+.anythingSliderMain{
+	width: 584px;
+	height: 315px;
+	position: relative;
+}
+.anythingSliderMain .wrapper, .anythingSliderMain .item-list {
+	width: 584px;
+	overflow: auto;
+	height:315px;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/* Width below is max for Opera */
+.anythingSliderMain .wrapper ul, .anythingSliderMain .item-list ul {
+	width: 32700px;
+	list-style: none;
+	position: absolute;
+	top:0;
+	left:0;
+	margin:0;
+	/*border:1px solid #999;*/
+    border: 0;
+}
+.anythingSliderMain ul li {
+	display: block;
+	float: left;
+	padding: 0;
+	height: 315px;
+	width: 584px;
+	margin: 0;
+}
+.anythingSliderMain .arrow {
+	display: block;
+	height: 200px;
+	width: 67px;
+	background: url(../images/arrows.html) no-repeat 0 0;
+	position: absolute;
+	font-size:1px;
+	top: 65px;
+	cursor: pointer;
+}
+.anythingSliderMain .forward {
+	background-position: 0 0;
+	right: -20px;
+}
+.anythingSliderMain .back {
+	background-position: -67px 0;
+	left: -20px;
+}
+.anythingSliderMain .forward:hover {
+	background-position: 0 -200px;
+}
+.anythingSliderMain .back:hover {
+	background-position: -67px -200px;
+}
+.anythingSliderMain #thumbNav {
+	position: relative;
+	top:232px;
+	text-align:right;
+	right:-2px;
+	border:none;
+}
+.anythingSliderMain #thumbNav a {
+	display: inline-block;
+	padding: 2px 6px;
+	height: 18px;
+	margin: 0 2px 0 0;
+	background:#008dd4;
+	font-size:13px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+}
+.anythingSliderMain #thumbNav a:hover {
+	background:#333;
+	color:#fff;
+}
+.anythingSliderMain #thumbNav a.cur {
+	background:#333;
+	color:#fff;
+}
+.anythingSliderMain #start-stop {
+	display:none;
+}
+.anythingSliderMain #start-stop {
+	background: green;
+	background-image: url(../images/cellshade.html);
+	background-repeat: repeat-x;
+	color: white;
+	padding: 2px 5px;
+	width: 40px;
+	text-align: center;
+	position: absolute;
+	right: 45px;
+	top: 323px;
+}
+.anythingSliderMain #start-stop.playing {
+	background-color: red;
+}
+.anythingSliderMain #start-stop:hover {
+	background-image: none;
+}
+/*
+  Prevents
+*/
+.anythingSliderMain .wrapper ul ul,  .anythingSliderMain .item-list ul ul{
+	position: static;
+	margin: 0;
+	background: none;
+	overflow: visible;
+	width: auto;
+	border: 0;
+}
+.anythingSliderMain .wrapper ul ul li, .anythingSliderMain .item-list ul ul li {
+	float: none;
+	height: auto;
+	width: auto;
+	background: none;
+}
+
+/*********************Sub Photo Gallery****************************************/
+
+.anythingSliderMain #PhotoGalleryHolder ul, .most-viewed-images .anythingSliderMain .view-content ul{
+	/**
+ * 	border:none;
+ */
+}
+#PhotoGalleryHolder li, .most-viewed-images .view-content li{
+		height:281px;
+		margin:0;
+		padding:0;
+}
+#PhotoGalleryHolder ul li .summaryMainSlider, .most-viewed-images .view-content ul li .summaryMainSlider{
+		/**
+ * border:none;
+ * 		background:none;
+ 
+		padding:30px 15px 0 15px;
+		color:#008dd4;*/
+        height: 251px;
+}
+.view-display-id-block_1 .view-content ul li .summaryMainSlider{
+    height: 70px;
+}
+#PhotoGalleryHolder .producedBy, .most-viewed-images .view-content .producedBy{
+		padding:20px 0 0 0;
+		font-size:11px;
+		color:#00aaff;
+}
+#PhotoGalleryHolder .date{
+		padding:5px 0 0 0;
+		font-size:11px;
+		color:#424242;
+}
+#anythingSliderGallery #PhotoGalleryHolder #thumbNav {
+	position: relative;
+	top:135px;
+	text-align: left;
+	border-bottom:1px solid #e3e3e3;
+}
+#anythingSliderGallery #PhotoGalleryHolder #thumbNav a {
+	display: inline-block;
+	padding: 2px 6px;
+	height: 18px;
+	margin: 0 2px 0 0;
+	background:url(../images/greyGalleryBullet.gif) no-repeat;
+	font-size:0px;
+}
+#anythingSliderGallery #PhotoGalleryHolder #thumbNav a:hover {
+	background:url(../images/blueGalleryBullet.gif) no-repeat;
+}
+#anythingSliderGallery #PhotoGalleryHolder #thumbNav a.cur {
+	background:url(../images/blueGalleryBullet.gif) no-repeat !important;
+}

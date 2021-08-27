@@ -1,0 +1,439 @@
+.views-exposed-form .views-exposed-widget .form-submit {
+		margin-top:0 !important;
+		margin-left:0px;
+		
+}
+.views-exposed-form {
+	padding:3px 10px;
+}
+input.form-submit{
+		color:#FFFFFF;
+		margin:0 2px;
+		padding:2px 5px 3px 5px;
+		border:none;
+		min-height:15px;
+	/*	display:block;*/
+}
+input.form-text{
+		width:180px;
+		height:18px;
+		font-size:12px;
+}
+.views-exposed-widget{
+		position:relative;
+}
+.views-exposed-widget label{
+		font-weight:bold;
+		font-size:13px;
+		padding-bottom:5px;
+		display:block;
+		float:left;
+		padding-right:10px;
+}
+.views-widget{
+		float:left;
+}
+.view-empty{
+		padding-top:10px;
+}
+span.views-throbbing{
+		float:left;
+		position:absolute;
+		top:8px;
+		left:45px;
+}
+.views-row{
+		border-bottom:1px solid #EEEEEE;
+		padding-bottom:10px;
+		margin-bottom:10px;
+}
+.views-row h2{
+		padding-bottom:5px;
+}
+.meta{
+		padding-bottom:5px;
+}
+.meta .submitted{
+		font-size:11px;
+		font-weight:bold;
+}
+.node{
+		/*border-bottom:1px solid #EEEEEE;
+		padding-bottom:10px;
+		margin-bottom:10px;*/
+}
+.node .content{
+		padding-bottom:5px;
+}
+.node h2{
+		padding-bottom:5px;
+}
+.comment{
+		border-bottom:1px solid #EEEEEE;
+		padding-bottom:10px;
+		margin-bottom:10px;
+}
+input#edit-submit{
+	/*	float:left;*/
+}
+ul.tips{
+		padding-bottom:5px;
+}
+.content #comment-form{
+		background:#cce8f6;
+		padding:15px;
+}
+.box h2 {
+    font-size:18px;
+    margin-bottom:5px;
+    margin-top:20px;
+}
+#comment-form p{
+		padding-bottom:5px;
+}
+#edit-submit, #edit-preview{
+		margin-bottom:5px;
+}
+ul.links li{
+		padding-left:0 !important;
+}
+.preview{
+	border:none !important;
+}
+.preview .comment{
+	border:none !important;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+#comments{
+		margin-top:10px;
+		padding-top:10px;
+		border-top:5px solid #CCE8F6;
+}
+textarea.form-textarea{
+		padding:5PX;
+}
+.profile h3{
+		margin-right:110px !important;
+		padding-bottom:5px;
+		margin-bottom:5px;
+}
+.picture .active img{
+		border:1px solid #eee;
+		padding:1px;
+}
+.profile h3{
+		font-weight:bold;
+		font-size:14px;
+		padding:5px 0 5px 10px;
+}
+dl.user-member dt{
+		font-weight:bold;
+		font-size:12px;
+		padding-bottom:5px;
+}
+dl.user-member dd{
+		font-weight:bold;
+		font-size:11px;
+		padding-bottom:5px;
+}
+table.sticky-enabled{
+		width:100%;
+}
+.sticky-enabled th{
+		padding:8px 5px 8px 15px;
+}
+#tabs-wrapper ul.tabs li{
+		color:#fff;
+}
+#tabs-wrapper ul.tabs li a{
+		color:#FFFFFF;
+		font-weight:bold;
+		font-size:11px;
+}
+#tabs-wrapper{
+		border-bottom:none !important;
+}
+#forum table th, #forum table td{
+		padding:5px;
+}
+#forum table tr{
+		background:#fff;
+}
+.container .name{
+		padding:4px 0;
+}
+.container .name a{
+		font-size:16px;
+		color:#008DD4;
+}
+.indent .name{
+		font-size:13px;
+}
+tr.even, tr.odd{
+		border-bottom:1px solid #EEEEEE !important;
+}
+thead th{
+		border-bottom:3px solid #EEEEEE !important;
+		padding-bottom:5px !important;
+		margin-bottom:10px !important;
+}
+.content p{
+		padding:inherit !important;
+		margin:inherit !important;
+}
+.forum-topic-navigation{
+		border-bottom:1px solid #EEEEEE !important;
+		border-top:1px solid #EEEEEE !important;
+}
+#forum table{
+		width:100%;
+}
+#forum .description{
+		font-size:11px !important;
+}
+.item-list ul li{
+		list-style:none !important;
+		margin-left:0 !important;
+        display:block;
+}
+.item-list ul li a{
+		padding-top:5px;
+		
+}
+ul.links li.login{
+		font-size:12px !important;
+}
+#forum tr td.forum{
+    padding:3px 0 0 15px !important;    
+}
+#forum tr td.forum{
+    background-position:5px 10px !important;    
+}
+#forum tr td.forum .name{
+		font-size:14px;
+}
+.active a{
+		margin-bottom:5 !important;
+		padding-bottom:0 !important;
+}
+div.links ul.links li.comment_forbidden{
+		margin-bottom:15px !important;
+		margin-top:5px;
+		display:block;
+}
+div.links ul.links li{
+		margin-bottom:15px;
+		display:inline;
+		margin-top:15px;
+}
+div.links ul.links li a{
+		background:none repeat scroll 0 0 #2A95E7;
+		color:#FFFFFF;
+		margin:0 2px;
+		padding:2px 5px;
+		font-size:12px;
+}
+div.terms ul.links li a{
+		background:none repeat scroll 0 0 #2A95E7;
+		color:#FFFFFF;
+		margin:0 2px;
+		padding:2px 5px;
+		font-size:12px;
+}
+div.links ul.links li.comment_reply{
+		margin:5px 0;
+}
+div.links ul.links li.comment_reply a{
+		background:none repeat scroll 0 0 #2A95E7;
+		color:#FFFFFF;
+		margin:0 2px;
+		padding:2px 12px;
+		font-size:12px;
+		font-weight:bold;
+}
+ul.links{
+		margin-bottom:5px !important;
+		margin-top:5px !important;
+}
+div.links ul.links li.comment_add {
+		margin-bottom:10px;
+		display:block;
+}
+li.taxonomy_term_4 a{
+		background:none repeat scroll 0 0 #D9EDF8 !important;
+		border-bottom:1px solid #008DD4 !important;
+		padding:2px !important;
+		color:#2A95E7 !important;
+}
+ul.primary{
+		padding:0!important;
+}
+.item-list .field-content a{
+		padding-top:0;
+}
+.item-list li.views-row{
+		border-bottom:none;
+}
+.views-row-1{
+		padding-bottom:5px;
+}
+.searchZoneHolder{
+	padding-bottom:5px;
+	/*overflow:auto;*/
+	width:100%;
+}
+#forum tr td.forum{
+		color:#595959;
+		vertical-align:middle;
+		padding:10px 10px !important;
+		padding-left:30px !important;
+}
+#forum ul.links li.forum{
+		padding-bottom:10px !important;
+		display:block;
+}
+#forum ul.links li.forum a {
+    background:none repeat scroll 0 0 #2A95E7;
+    color:#FFFFFF;
+    margin:0 2px;
+    padding:3px 5px;
+    font-size:14px;
+    font-weight:bold;
+}
+td.topics, td.posts, td.last-reply{
+		vertical-align:middle;
+}
+td.topics, td.replies{
+		width:80px;
+		font-weight:bold;
+		color:#004466;
+		vertical-align:middle;
+}
+td.posts, td.created{
+		width:80px;
+		font-weight:bold;
+		color:#004466;
+		vertical-align:middle;
+}
+td.last-reply{
+		font-weight:bold;
+		color:#004466;
+		vertical-align:middle;
+}
+.odd td{
+		vertical-align:top;
+		background:#f7fcff;
+}
+td.icon{
+		background:#f7fcff;
+		vertical-align:top;
+		padding-top:5px;
+}
+td.title a{
+		font-size:14px;
+		font-weight:bold;
+}
+h3.comment-title a{
+		font-weight:bold;
+		padding-bottom:10px;
+		padding-top:5px;
+		display:block;
+		font-size:18px;
+}
+.content ul{
+	padding:10px;
+	padding-left:3px;
+	list-style:none;
+	}
+.content ul li{
+	padding-left:10px;
+	background:url(../images/bullet.gif) no-repeat left 8px;
+}
+	
+/*Hubs List*/	
+.hubsdropdownbox .item-list ul{
+    /*background: #CCE8F6;*/
+    background: #FFF;
+    min-width: 200px;
+    width: 300px;
+    margin: 2px;
+    border: 1px #939393 solid;
+    padding: 0px;
+    text-transform: none !important;
+	   
+}
+.hubsdropdownbox .item-list li a{
+    text-transform: none !important;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: auto;
+    font-size: 11px;
+}
+.hubsdropdownbox .item-list li a:hover{
+    background: #939393;
+    color: #FFF !important;
+    text-decoration: none;
+}
+.hubsdropdownbox .item-list li{
+    width: auto;
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 0 !important;
+    list-style: none !important;
+    list-style-image: none;
+    list-style-type: none;
+    background: none;
+    
+    /*background: url("../images/blueArrow.gif") no-repeat scroll left 8px transparent;*/
+    
+}
+.hubsdropdownbox{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    width: 300px;
+}	
+.hubsdropdownbox .item-list{
+    position: absolute;
+    display: block;
+    top: 19px;
+    z-index: 1000;
+}
+#rgt{
+    
+    cursor: pointer;
+    color: #000;
+    margin: 0 2px;
+    margin-bottom: 5px;
+    min-height: 15px;
+    padding: 2px 5px 3px;
+    padding-right: 20px;
+    border: 1px #939393 solid;
+    background: url('../images/arrow.png') #FFF no-repeat right ;
+    font-size: 11px;
+}
+#rgt:hover{
+    text-decoration: none;
+    color: #FFF;
+    background: url('../images/arrow.png') #939393 no-repeat right ;
+    
+}	
+.form-item {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.view-id-domains_list.view-display-id-page_2.view-dom-id-1 ul{
+    margin-top: 10px;
+}
+.view-id-domains_list.view-display-id-page_2.view-dom-id-1 li{
+    padding-left: 20px;
+}
+/******MultiLang hubsnames******/
+.dl-title-en{
+    display: block;
+}
+.dl-title-ar{
+    display: none;
+}
